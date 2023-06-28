@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>Neurochirurgie Timone</title>
+    <meta name="description" content="Un bref descriptif de votre site pour les moteurs de recherche">
+    <meta name="author" content="Information sur l'auteur ici">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Custom styles -->
+    <style>
+      body {
+        background-image: url('background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      #header {
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+
+      #header img {
+        width: 100px;
+      }
+
+      .main-menu {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+
+      .main-menu li a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      .content-region h2{
+        margin: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+        }
+
+
+       .centered-title-container {
+    display: flex;
+    justify-content: center;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      /* Ajout pour centrer les titres */
+
+       h1 {
+    text-align: center;/* Ajout pour centrer les titres */
+  }
+
+    </style>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <header id="header">
+      <img src="logo2.jpg" alt="Logo">
+      <h1>Neurochirurgie Timone</h1>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav main-menu">
+            <li class="nav-item"><a class="nav-link" href="#Acceuil">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">A propos de l'organisation du service</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ressources">Ressources pédagogiques</a></li>
+            <li class="nav-item"><a class="nav-link" href="#administratif">Secrétariat</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="centered-title-container">
+        <!-- Section Accueil -->
+        <section id="Acceuil" class="content-region">
+          <div class="row">
+            <div class="col">
+              <h2 class="centered-title">Accueil</h2>
+              <p>Bonjour, bienvenue sur votre site. Voici quelques informations utiles pour votre stage en neurochirurgie à la Timone.</p>
+              <p>Vous trouverez sur ce lien ci-dessous les évaluations hebdomadaires à remplir tous les lundis. Vous disposez de 24 h pour y répondre.</p>
+              <p><a href="https://www.thatquiz.org/fr/classpage?03905789bcdc9ae">Evaluations </a></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section A propos de l'organisation du service -->
+        <section id="about" class="content-region hide">
+          <div class="row">
+            <div class="col">
+              <h2 class="centered-title">A propos de l'organisation du service</h2>
+              <p>Le service accueille les étudiants en médecine, et vous propose des enseignements par le cours de pôle de Neurosciences mais également lors du stage.</p>
+              <p>L'organisation du service s'articule sur trois axes :</p>
+              <ul>
+                <li>Consultations</li>
+                <li>Bloc opératoire</li>
+                <li>Service / gestion de la salle et des patients hospitalisés</li>
+              </ul>
+              <p>Chaque étudiant est affecté différemment chaque semaine sur un de ces trois axes. La rotation est libre. Il est cependant indispensable en cas d'absence qu'il y ait toujours un étudiant en service.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section Ressources pédagogiques -->
+        <section id="ressources" class="content-region hide">
+          <div class="row">
+            <div class="col">
+              <h2 class="centered-title">Ressources pédagogiques</h2>
+              <ul>
+                <li><a href="http://frop.fr/frop-etudiants/wp-content/uploads/2020/02/2014-Hasboun-D.neuro-morpho-copie.pdf">Neuro-Anatomie cours</a></li>
+                <li><a href="https://www.youtube.com/playlist?list=PL1Ml6i3B0TBbmnwcvP29TGlk9jRZEU35X">Neuro-anatomie vidéos</a></li>
+                <li><a href="http://fr.ap-hm.fr/site/neurochirurgie-timone">Site du service</a></li>
+                <li><a href="https://www.cen-neurologie.fr/fr/premier-cycle/examen-neurologique">Rappels sur l'examen neurologique (site du C.E.N)</a></li>
+                <li><a href="https://asia-spinalinjury.org/wp-content/uploads/2019/01/ASIA-ISNCSCI-Final-French-Version-Jan-2019.pdf">Score ASIA pour les blessés médullaires</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section Secrétariat -->
+        <section id="administratif" class="content-region hide">
+          <div class="row">
+            <div class="col">
+                <h2 class="centered-title">Secrétariat</h2>
+              <p>Pour vos congés vous devez informer Mme Capellino et remplir les documents demandés par la scolarité.</p>
+              <p>Vous devez par ailleurs adresser un mail à <a href="mailto:sebastien.boissonneau@ap-hm.fr,laurence.capellino@ap-hm.fr?subject=Congés externe&body=Bonjour, je souhaiterai poser X jours de congés du Y au Z. Bien cordialement.">Mme Capellino et moi-même</a>.</p>
+              <p>Les carnets de stage doivent être déposés auprès de Mme Borralho au secrétariat.</p>
+            </div>
+          </div>
+        </section>
+
+      <!-- Pied de page -->
+        <footer class="page-footer font-small blue bg-light mt-4 centered-footer">
+          <div class="container-fluid text-md-left">
+            <div class="row">
+              <div class="col-md-6 mt-md-0 mt-3">
+                <h5 class="text-uppercase">Neurochirurgie Timone</h5>
+                <p>Neurochirurgie Timone - Tous droits réservés</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+
+
+      <!-- Scripts JS -->
+      <script type="text/javascript" src="script.js"></script>
+  </body>
+
+    <style>
+      html {
+          background-image: url('background.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .content-region {
+        margin-bottom: 2em;
+      }
+
+      .navbar {
+        margin-bottom: 2em;
+      }
+
+      .page-footer {
+        padding: 2em;
+      }
+    </style>
+    </html>
